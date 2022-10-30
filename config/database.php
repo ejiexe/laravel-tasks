@@ -46,7 +46,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'bnaabuja-server'),
+            'host' => env('DB_HOST', 'bnaabuja-server.mysql.database.azure.com'),
             'port' => env('DB_PORT', '3306'),
             'database'  => env('DB_DATABASE', 'bnaabuja-database'),
             'username'  => env('DB_USERNAME', 'bjetqvelyu'),
